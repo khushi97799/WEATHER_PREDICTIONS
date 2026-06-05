@@ -26,7 +26,7 @@ Run locally with Streamlit — enter any city and get real-time prediction.
 pip install -r requirements.txt
 python src/create_dataset.py
 python src/train_model.py
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ## Project Structure
